@@ -89,6 +89,7 @@ const Post: FunctionComponent<Props> = ({ post }) => {
                   {children}
                 </a>
               ),
+              img: ({ href }: any) => <img src={href} className="mb-6 mt-4" />,
             }}
           />
         </div>
